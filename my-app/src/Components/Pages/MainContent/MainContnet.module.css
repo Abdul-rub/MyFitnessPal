@@ -1,0 +1,22 @@
+.font1{
+    font-family:  "Neue Plak UA",Helvetica,Arial,-apple-system,sans-serif;
+}
+
+.searchdiv{
+    font-weight: 750;
+    width: 100%;
+    height: 120px;
+    line-height: 50px;
+}
+.halfdiv{
+    background-color: rgb(243,210,53);
+    text-align: center;
+}
+.searchbox{
+    border-radius: 35px;
+    width: 75%;
+    height: 70px;
+    margin-left: 40px;
+    background-color: white;
+    margin-top: 5px;
+}
