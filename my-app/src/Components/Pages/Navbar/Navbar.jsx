@@ -1,13 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import  style from "./Navbar.module.css"
-import About from '../About'
-import Food from '../Food'
-import Exercies from '../Exercies'
-import Apps from '../Apps'
-import Community from '../Community'
-import Premium from '../Premium'
-// import logoStyle from "./Navbar.module.css"
+
 
 
 export default function Navbar() {
@@ -28,12 +22,12 @@ export default function Navbar() {
 
      <div className={style.div2}>
       <div style={{display:"flex", gap:"25px",color:"white",marginLeft:"180px"}}>
-       <Link to={<About/>}>ABOUT</Link>
-       <Link to={<Food/>}>FOOD</Link>
-       <Link to={<Exercies/>}>EXERCISE</Link>
-       <Link to={<Apps/>}>APPS</Link>
-       <Link to={<Community/>}>COMMUNITY</Link>
-       <Link to={<Premium/>}>PREMIUM</Link>
+       <Link to='/about'>ABOUT</Link>
+       <Link to='/food'>FOOD</Link>
+       <Link to='/excercise'>EXERCISE</Link>
+       <Link to='/apps'>APPS</Link>
+       <Link to='/community'>COMMUNITY</Link>
+       <Link to='/premium'>PREMIUM</Link>
        
       </div>
 
