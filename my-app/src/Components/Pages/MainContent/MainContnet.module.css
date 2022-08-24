@@ -1,3 +1,5 @@
+
+
 .font1{
     font-family:  "Neue Plak UA",Helvetica,Arial,-apple-system,sans-serif;
 }
@@ -11,6 +13,7 @@
 .halfdiv{
     background-color: rgb(243,210,53);
     text-align: center;
+    height: 300px;
 }
 .searchbox{
     border-radius: 35px;
@@ -19,4 +22,14 @@
     margin-left: 40px;
     background-color: white;
     margin-top: 5px;
+}
+.shadow{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.divCarasol{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: center;
+    
 }
