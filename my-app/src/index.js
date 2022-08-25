@@ -19,7 +19,7 @@ ReactDOM.createRoot(rootElement).render(
     <App />
     </BrowserRouter>
     </ChakraProvider>
-  </>,
+  </>
 )
 
 
