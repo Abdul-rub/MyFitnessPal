@@ -5,7 +5,7 @@ import HomePage from './HomePage/HomePage'
 import About from "./About"
 import Food from "./Foods/Food"
 import Exercies from "./Exercies";
-import Apps from "./Apps" ;
+import Apps from "./Apps/Apps" ;
 import Community from "./Community";
 import Premium from "./Premium";
 
