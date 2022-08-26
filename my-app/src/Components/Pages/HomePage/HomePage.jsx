@@ -10,7 +10,7 @@ export default function HomePage() {
     <div>
       <header>
       <Button onClick={toggleColorMode}>
-        Toggle {colorMode === 'light' ? 'Dark' : 'Light'}
+         {colorMode === 'light' ? 'Dark' : 'Light'}
       </Button>
     </header>
         <Navbar/>
