@@ -37,7 +37,7 @@ export default function Apps() {
       <Box>
         <Text >Fitbit</Text>
         <Text fontSize={10}>Activity Trackers</Text>
-        <Text marginTop={"30px"} border={'1px solid grey'} borderRadius={5} color={'1px solid grey'}>Installed</Text>
+        <Text marginTop={"30px"} border={'1px solid grey'}  borderRadius={5} color={'1px solid grey'}>Installed</Text>
         </Box>
       </Box>
       <Box display={"flex"} gap={4} >
