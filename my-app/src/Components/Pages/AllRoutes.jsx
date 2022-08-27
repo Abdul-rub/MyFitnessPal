@@ -8,7 +8,6 @@ import Exercies from "./Exercies";
 import Apps from "./Apps/Apps" ;
 import Community from "./Community";
 import Premium from "./Premium";
-
 export default function AllRoutes() {
   return (
     <div>
