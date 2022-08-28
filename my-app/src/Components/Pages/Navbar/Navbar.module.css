@@ -7,7 +7,7 @@
     
  }
  .logoStyle{
-    color: rgb(70, 70, 233);
+    color: #0066EE;
     margin-left: 180px;
     margin-top: 10px;
     font-size: 37px;
@@ -26,6 +26,8 @@
     /* border: 1px solid black; */
     height: 45px;
     background-color: #005CB4;
+    display: flex;
+    align-items: center;
     
     
  }

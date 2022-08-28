@@ -24,10 +24,10 @@ export default function Navbar() {
       <div style={{display:"flex", gap:"25px",color:"white",marginLeft:"180px"}}>
        <Link to='/about'>ABOUT</Link>
        <Link to='/food'>FOOD</Link>
-       <Link to='/excercise'>EXERCISE</Link>
+       <Link to=''>EXERCISE</Link>
        <Link to='/apps'>APPS</Link>
-       <Link to='/community'>COMMUNITY</Link>
-       <Link to='/premium'>PREMIUM</Link>
+       <Link to=''>COMMUNITY</Link>
+       <Link to=''>PREMIUM</Link>
        
        
       </div>
