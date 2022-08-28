@@ -36,7 +36,7 @@ export default function MainContent() {
          <div ><Text fontSize='1xl'>What's in your food? Learn about calorie count, nutrition information<br></br> and serving size.</Text></div>
          <div>
          <div ><input className={styles.searchbox} placeholder='             Get the nutritions from ant food,like an apple' /></div>
-         <div style={{position:"absolute",top:"70rem",left:"82%"}}><img src="https://img.icons8.com/ios/50/000000/search--v1.png"/></div>
+         <div style={{position:"absolute",top:"72.60rem",left:"82%"}}><img src="https://img.icons8.com/ios/50/000000/search--v1.png"/></div>
          </div>    
      </div>
 
