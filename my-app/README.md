@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+
+![MyFitnessPal _ MyFitnessPal com (3)](https://user-images.githubusercontent.com/70228714/187076607-9c530acc-77ca-4946-9c8f-d05e8ee87899.png)
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
