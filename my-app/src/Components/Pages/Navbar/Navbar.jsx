@@ -8,14 +8,14 @@ export default function Navbar() {
   return (
     <>
      <div className={style.div1}>
-        <h1 className={style.logoStyle}>myfitnesspal</h1>
+       <Link to='/'> <h1 className={style.logoStyle}>myfitnesspal</h1></Link>
        <div style={{display:"flex",color:"blue" ,marginTop:"30px",gap:"5px"}}>
        <div>
-        <h4>Login</h4>
+        <Link to='/login'>Login</Link>
         </div>
         {/* <hr /> */}
         <div>
-        <h4>SignUp</h4>
+        <Link to='/Signup'>SignUp</Link>
         </div>
        </div>
      </div>
@@ -28,6 +28,7 @@ export default function Navbar() {
        <Link to='/apps'>APPS</Link>
        <Link to='/community'>COMMUNITY</Link>
        <Link to='/premium'>PREMIUM</Link>
+       
        
       </div>
 
