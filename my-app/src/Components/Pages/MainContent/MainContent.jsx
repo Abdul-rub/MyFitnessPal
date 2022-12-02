@@ -4,6 +4,7 @@ import {Button,Text,Icon,SearchIcon} from "@chakra-ui/react"
 import {Link} from "react-router-dom"
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import { BsSearch } from 'react-icons/bs';
 
 // import Login from "../Login/Login"
 
@@ -14,29 +15,56 @@ export default function MainContent() {
     
   return (
     <div style={styles.font} >
-      <img style={{width:"100%",display:"block"}} src="https://www.myfitnesspal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-collage-top-large%402x.dcc5ac56.png&w=1200&q=75" />  
-      <div style={{position:"absolute",top:"9%",left:"30%",transform:"translate(-50%,-50%)",fontSize:"4rem",fontWeight:"850",lineHeight:"60px"}}>
+      <div  style={{display:'flex',justifyContent:'space-evenly', gap:'20px' ,height:"auto",padding:'4rem'}}>
+      
+      <div style={{width:'50%',height:"auto"}}>
+      <div 
+      style={{position:"absolute",top:"9%",left:"30%",transform:"translate(-50%,-50%)",fontSize:"4rem",fontWeight:"850",lineHeight:"60px"}}
+      >
         <h1>Fitness starts<br></br> with what you<br></br> eat.</h1>
       </div>
-      <div style={{position:"absolute",top:"13%",left:"12%",fontSize:"18px"}}>
+      <div
+       style={{position:"absolute",top:"13%",left:"12%",fontSize:"18px"}}
+       >
       <p>Take control of your goals. Track calories, break <br></br> down ingredients, and log activities with<br></br> MyFitnessPal.</p>
       </div>
       <div>
-      <Button style={{position:"absolute",top:"16%",left:"12%"}} colorScheme='messenger' size='lg'>
+      <Button
+       style={{position:"absolute",top:"16%",left:"12%"}} colorScheme='messenger' size='lg'
+       >
           START FOR FREE
   </Button>
       </div>
-      <div style={{display:"flex",position:"absolute",top:"17.5%",left:"12%"}}>
+      <div 
+      style={{display:"flex",position:"absolute",top:"17.5%",left:"12%"}}
+      >
         <p>Already have an account? </p> 
         <Link color={"blue"} to="/login">Login</Link>
       </div>
+      </div>
+
+
+      <div >
+      <img style={{width:'100%'}} src="https://www.myfitnesspal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-slice%402x.e3eec8a8.png&w=1920&q=75" />  
+      </div>
+      </div>
+     
+      
 
      <div className={styles.halfdiv}>
         <div className={styles.searchdiv}>  <Text fontSize='5xl'>Search over 11 million <br></br> foods in our database.</Text></div>
          <div ><Text fontSize='1xl'>What's in your food? Learn about calorie count, nutrition information<br></br> and serving size.</Text></div>
          <div>
-         <div ><input className={styles.searchbox} placeholder='             Get the nutritions from ant food,like an apple' /></div>
-         <div style={{position:"absolute",top:"72.60rem",left:"82%"}}><img src="https://img.icons8.com/ios/50/000000/search--v1.png"/></div>
+         <div style={{display:"flex"}} >
+          <input className={styles.searchbox} placeholder='Get the nutritions from ant food,like an apple'  /> 
+          <BsSearch  style={{position:"relative",right:"15%",marginTop:'25px' ,fontSize:'30px'}}/>
+          </div>
+         {/* <div
+          style={{position:"absolute",top:"72.60rem",left:"82%"}}
+          >
+          
+           
+            </div> */}
          </div>    
      </div>
 

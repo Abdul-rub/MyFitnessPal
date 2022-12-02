@@ -13,13 +13,15 @@
 .halfdiv{
     background-color: rgb(243,210,53);
     text-align: center;
-    height: 300px;
+    height: auto;
+    padding: 4rem 0rem;
 }
 .searchbox{
     border-radius: 35px;
     width: 75%;
     height: 70px;
-    margin-left: 40px;
+    margin: auto;
+    text-align: center;
     background-color: white;
     margin-top: 5px;
 }
